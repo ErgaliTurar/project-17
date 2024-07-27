@@ -1,0 +1,289 @@
+header {
+    @include media (800px, 1024px) {
+        width: 100%;
+        height: 865px;
+        & .container {
+            width: 100%;
+        }
+        & .bg-linear-gradient {
+
+            & div {
+                & .menu {
+                    display: flex;
+                    flex-direction: row;
+                    width: fit-content;
+                    margin-left: 10%;
+                    & nav {
+                        margin-left: 10px;
+
+                    }
+                }
+                & .header-text {
+                    margin-left: 10%;
+                    & h1 {
+                        font-size: 30px;
+                        width: fit-content;
+                    }
+                    & p {
+                        font-size: 18px;
+                        width: fit-content;
+
+                    }
+                }
+            }
+        }
+    }
+}
+.card {
+    @include media (800px, 1024px) {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+        justify-items: center;
+        & div {
+            margin-top: 30px;
+        }
+    }
+}
+.content-block {
+    @include media (800px, 1024px) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+
+        & .right-block {
+            margin-top: 30px;
+        }
+    }
+}
+.search-block {
+    @include media (800px, 1024px) {
+        width: 750px;
+    }
+}
+.gallery-block {
+    @include media (800px, 1024px) {
+        width: 800px;
+        & h2 {
+            margin-left: 10%;
+            width: fit-content;
+        }
+        & div {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-column-gap: 0;
+            width: 800px;
+        }
+    }
+}
+footer {
+    @include media (800px, 1024px) {
+        height: 1200px;
+        width: 100%;
+        & .container {
+            width: 750px;
+        }
+        & div {
+            & .footer-head {
+                height: 250px;
+                margin-top: 20px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 750px;
+            }
+            & .footer-content {
+                display: grid;
+                width: 750px;
+                & h2 {
+                    display: none;
+                }
+                grid-template-columns: 1fr 1fr ;
+                & div {
+                    align-items: center;
+                    & div {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        & p {
+                            margin-right: 0px;
+                        }
+                    }
+                }
+            }
+            & .footer-end {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 750px;
+            }
+        }
+    }
+}
+
+
+
+
+header {
+    @include media (600px, 799px) {
+        width: 100%;
+        height: 700px;
+        & .container {
+            width: 600px;
+        }
+        & .bg-linear-gradient {
+            & div {
+                & .menu {
+                    display: flex;
+                    flex-direction: column;
+                    width: 100%;
+                    align-items: center;
+                    & nav {
+                        margin-left: 10px;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        & a {
+                            margin-top: 10px;
+                        }
+
+                    }
+                }
+                & .header-text {
+                    margin-left: 10%;
+                    & h1 {
+                        font-size: 30px;
+                        width: fit-content;
+                        margin-top: 100px;
+                    }
+                    & p {
+                        font-size: 18px;
+                        width: fit-content;
+
+                    }
+                }
+            }
+        }
+    }
+}
+.card {
+    @include media (600px, 799px) {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+        justify-items: center;
+        & div {
+            margin-top: 30px;
+        }
+    }
+}
+.content-block {
+    @include media (600px, 799px) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        & div {
+            & h2 {
+                font-size: 30px;
+            }
+            & div {
+                & div {
+                    & div {
+                        & h3 {
+                            font-size: 20px;
+                        }
+                        & p {
+                            font-size: 10px;
+                        }
+                    }
+                }
+            }
+        }
+        
+
+        & .right-block {
+            margin-top: 30px;
+        }
+    }
+}
+.search-block {
+    @include media (600px, 799px) {
+        width: 600px;
+        & h2 {
+            font-size: 20px;
+
+        }
+        & p {
+            font-size: 15px;
+        }
+        & div {
+            width: 550px;
+        }
+        & input {
+            width: 150px;
+        }
+    }
+}
+.gallery-block {
+    @include media (600px, 799px) {
+        width: 600px;
+        & h2 {
+            margin-left: 10%;
+            width: fit-content;
+        }
+        & div {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-column-gap: 0;
+            width: 600px;
+        }
+    }
+}
+footer {
+    @include media (600px, 799px) {
+        height: 1200px;
+        width: 100%;
+        & .container {
+            width: 100%;
+        }
+        & div {
+            & .footer-head {
+                height: 250px;
+                margin-top: 20px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 100%;
+            }
+            & .footer-content {
+                display: grid;
+                width: 100%;
+                & h2 {
+                    display: none;
+                }
+                grid-template-columns: 1fr 1fr ;
+                & div {
+                    align-items: center;
+                    & div {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        & p {
+                            margin-right: 0px;
+                        }
+                    }
+                }
+            }
+            & .footer-end {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 100%;
+            }
+        }
+    }
+}

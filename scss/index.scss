@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Nunito", sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1240px;
+}
+@import 'header';
+@import 'card';
+@import 'content-block';
+@import 'search-block';
+@import 'gallery-block';
+@import 'footer';
+@import 'mixin';
+@import 'tablet-adaptiv';
+@import 'mobile-adaptiv';

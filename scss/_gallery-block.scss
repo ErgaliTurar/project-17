@@ -1,0 +1,15 @@
+.gallery-block {
+    & h2 {
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 49.1px;  
+        margin-top: 122px; 
+        margin-bottom: 45px;  
+        color: #323232;   
+    }
+    & div {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-row-gap: 20px;
+    }
+}
